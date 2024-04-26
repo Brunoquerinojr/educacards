@@ -1,21 +1,38 @@
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+
+import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
-function ColorSchemesExample() {
+import NavBar from './components/navbar';
+
+function BrandExample() {
   return (
     <>
-      <Navbar data-bs-theme="sucess" className='header'>
-        <Container>
-          <Navbar.Brand href="#home">EducaCards</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
 
+      <NavBar/>
+          
+      {/* <Navbar bg="dark" data-bs-theme="dark" className="bg-body-tertiary">
+       <Container>
+           <Navbar.Brand href="#home" className='nav'>
+            <img src="" alt="Seta de voltar" />
+             <h1>Navbar</h1>
+             <img
+              alt=""
+               src="/img/Header.svg"
+               width="30"
+               height="30"
+             className="d-inline-block align-top"
+             />{' '}
+         </Navbar.Brand>
+       </Container>
+       </Navbar> */}
+      
     </>
   );
 }
 
-export default ColorSchemesExample;
+export default BrandExample;
+
+// export default ColorSchemesExample;

@@ -1,0 +1,17 @@
+nav{
+    background-color: #650EE4;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+li{
+    list-style: none;
+    color: black;
+}
+img {
+    height: 40px;
+}
