@@ -6,6 +6,7 @@
   import Flashlist from './components/Flashlist';
   import './App.css'
   import axios from 'axios';
+  import NavBar from './components/navbar';
 
   function ColorSchemesExample() {
     const [flashcards, setFlashcards] = useState(FlashCards_Simples)
@@ -45,14 +46,7 @@
     
     return (
       <>
-        <Navbar data-bs-theme="success" className='header'>
-          <Container>
-            <Navbar.Brand href="#home">EducaCards</Navbar.Brand>
-            <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-            </Nav>
-          </Container>
-        </Navbar>
+        <NavBar />
 
         <form className='forms' onSubmit={handleSubmit}>
           <div className='form-group'>
@@ -79,8 +73,8 @@
   const FlashCards_Simples = [
     {
       id: 1,
-      pergunta: "Quanto é 1 + 1?",
-      resposta: "2"
+      pergunta: "Não foi gerado nenhuma pergunta",
+      resposta: "Não foi gerado nenhuma resposta"
     }
   ]
 
