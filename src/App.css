@@ -5,15 +5,17 @@
 }
 
 body {
-  background-color: #ECEBE9;
+  background-image: url(components/img/fundo.jpeg);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: brightness(75%);
 }
 
 .card_center {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  width: 100vw;
 }
 
 .forms {

@@ -15,6 +15,7 @@ div.card {
   .card.flip {
     --rotate-y: 180deg;
   }
+
   .card .frente,
   .card .atrás {
     position: absolute;

@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 button.btn {
@@ -13,5 +14,4 @@ button.btn {
 button.btn:hover{
     background-color: #FF4700;
     color: #fbfbf8;
-
 }

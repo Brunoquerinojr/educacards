@@ -1,17 +1,24 @@
-nav{
+nav {
     background-color: #650EE4;
-}
-ul{
+  }
+  
+  ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-}
-
-li{
+  }
+  
+  li {
     list-style: none;
     color: black;
-}
-img {
-    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  
+  img {
+    height: 60px;
+  }
+  h1{
+    padding-top: 10px;
 }
