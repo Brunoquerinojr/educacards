@@ -8,6 +8,7 @@
   import axios from 'axios';
   import NavBar from './navbar';
   import Logo_branco from './img/logo_branco.png'
+  import { Link } from 'react-router-dom';
 
   function Interface() {
     const [flashcards, setFlashcards] = useState(FlashCards_Simples)
@@ -74,6 +75,10 @@
         </form>
 
         <Flashlist flashcards = {flashcards} />
+
+        <div className='QuestionMark'>
+        <Link to="/Ajuda">?</Link>
+        </div>
 
       </>
 
