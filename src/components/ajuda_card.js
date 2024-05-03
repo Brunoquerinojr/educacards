@@ -11,12 +11,12 @@ function Ajuda_card() {
                 <div className='div-staps1'>
                   <Row className='staps'>
                     <Col className='col-border'>1° Passo: Selecionar a categoria que gostaria de estudar</Col>
-                    <Col>3 Passo: Clique em "Ver Resposta" para o card girar e sua resposta aparecerá</Col>
+                    <Col>2° Passo: Clique em "gerar" e espere a pergunta aparecer</Col>
                   </Row>
                 </div>
                 <div className='div-staps2'>
                   <Row className='staps'>
-                    <Col className='col-border'>2° Passo: Clique em "gerar" e espere a pergunta aparecer</Col>
+                    <Col className='col-border'>3 Passo: Clique em "Ver Resposta" para o card girar e sua resposta aparecerá</Col>
                     <Col className='col-img'><img src={Icon} alt="Logo" /></Col>
                   </Row>
                 </div>
