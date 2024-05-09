@@ -49,3 +49,15 @@ body {
   text-decoration: none;
   color: black;
 }
+
+@media (max-width: 375px) {
+  .form-group select {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 321px) {
+  .form-group select {
+    width: 19rem;
+  }
+}

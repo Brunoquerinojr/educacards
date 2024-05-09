@@ -6,7 +6,7 @@ import Icon from './img/icon.png'
 function Ajuda_card() {
   return (
     <div className='main'>
-        <div className='Container'> {/* added maxWidth prop */}
+        <div className='Container'>
             <div className='--div-container'>
                 <div className='div-staps1'>
                   <Row className='staps'>
