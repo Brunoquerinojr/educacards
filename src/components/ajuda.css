@@ -58,10 +58,26 @@ body {
     flex-direction: column;
   }
 
-  .col-border {
+  .div-staps1 .col-border {
     margin-bottom: 1rem;
     border-bottom: 1px solid black;
     border-right: none;
+  }
 
+  .col-border {
+    margin-bottom: 1rem;
+    border-right: none;
+  }
+
+  .div-staps1 {
+    height: 40%;
+  }
+
+  .div-staps1 .col {
+    border-bottom: 1px solid black;
+  }
+
+  .col-img img {
+    height: 75px;
   }
 }
