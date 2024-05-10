@@ -1,6 +1,69 @@
 .nav{
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+
+*{
+  font-family: 'Coiny', sans-serif;
+}
+
+body {
+  background-color: #ECEBE9;
+}
+
+.App-header {
+  background-color: green;
+  min-height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: black;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #ccc;
+}
+
+.card_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.forms {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.form-group label {
+  padding: 10px;
+  
+}
+.form-group select {
+  padding: 10px;
+  background-color: #fbfbf8;
+  border-radius: 20px;
 }

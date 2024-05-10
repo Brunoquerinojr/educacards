@@ -1,0 +1,17 @@
+.btn_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+button.btn {
+    background-color: #FF4700;
+    color: #fbfbf8;
+}
+
+button.btn:hover{
+    background-color: #FF4700;
+    color: #fbfbf8;
+
+}
