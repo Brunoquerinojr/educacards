@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 // import Navbar from 'react-bootstrap/Navbar';
@@ -43,12 +44,20 @@ function BrandExample() {
   import Flashlist from './components/Flashlist';
   import './App.css'
   import axios from 'axios';
+=======
+import Interface from "./components/interface"
+import MyRoutes from "./components/routes"
+>>>>>>> afb9f988f28fc63bf90e9b5357dbf0454c3e5a86
 
-  function ColorSchemesExample() {
-    const [flashcards, setFlashcards] = useState(FlashCards_Simples)
-    const [categories, setCategories] = useState([])
-    const categoryEl = useRef()
+function App() {
+  return(
+    <>
+      <MyRoutes/>
+    </>
+  )
+}
 
+<<<<<<< HEAD
     useEffect(() => {
       axios.get("https://opentdb.com/api_category.php")
       .then(res => {
@@ -122,3 +131,6 @@ function BrandExample() {
   ]
 
   export default ColorSchemesExample;
+=======
+export default App
+>>>>>>> afb9f988f28fc63bf90e9b5357dbf0454c3e5a86

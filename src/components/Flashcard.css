@@ -15,6 +15,7 @@ div.card {
   .card.flip {
     --rotate-y: 180deg;
   }
+
   .card .frente,
   .card .atrás {
     position: absolute;
@@ -24,4 +25,22 @@ div.card {
   
   .card .atrás {
     transform: rotateY(180deg);
+  }
+
+  @media (max-width: 666px) {
+    div.card {
+      width: 25rem;
+    }
+  }
+
+  @media (max-width: 425px) {
+    div.card {
+      width: 20rem;
+    }
+  }
+
+  @media (max-width: 321px) {
+    div.card {
+      width: 19rem;
+    }
   }

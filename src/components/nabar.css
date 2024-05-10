@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 nav{
     background-color: #650EE4;
 }
@@ -14,4 +15,29 @@ li{
 }
 img {
     height: 40px;
+=======
+nav {
+    background-color: #650EE4;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  li {
+    list-style: none;
+    color: black;
+    display: flex;
+  }
+  
+  img {
+    height: 60px;
+  }
+  h1{
+    padding-top: 10px;
+>>>>>>> afb9f988f28fc63bf90e9b5357dbf0454c3e5a86
 }
